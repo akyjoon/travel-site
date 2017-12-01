@@ -602,6 +602,11 @@ a {
     color: white;
   }
 
+.page-section--testimonials {
+    background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
+    background-size: cover;
+  }
+
 .headline {
   font-weight: 300;
   font-size: 1.9rem;
@@ -732,6 +737,7 @@ a {
   font-size: 2.55rem;
   font-weight: 300;
   text-align: center;
+  margin-bottom: 3em;
 }
 
 @media (min-width: 530px) {
@@ -755,12 +761,18 @@ a {
 @media (min-width: 530px) {
 
 .section-title__icon {
+      position: relative;
+      top: 8px;
       margin-right: .5rem;
       margin-left: 0;
-      margin-: 0;
+      margin-bottom: 0;
       display: inline-block
   }
     }
+
+.section-title--blue {
+    color: #2f5572;
+  }
 
 .feature-item {
   position: relative;
@@ -781,36 +793,17 @@ a {
 
 @media (min-width: 530px) {
 
-<<<<<<< HEAD
-.feature-item {
-    position: absolute;
-    left:0
-}
-=======
 .feature-item__icon {
       position: absolute;
       left:0
   }
->>>>>>> our-features
     }
 
 .feature-item__title {
     font-size: 1.6rem;
-<<<<<<< HEAD
     font-weight: 300;
     margin-bottom: .8rem;
     margin-top: .7em;
-    text-align: center;
-  }
-
-@media (min-width: 530px) {
-
-.feature-item__title {
-      font-size: 1.875rem;
-      margin-top: 1em;
-      text-align: left
-  }
-=======
     margin-top: .7em;
     font-weight: 300;
     margin-bottom: .8rem;
@@ -824,5 +817,36 @@ a {
       margin-top: 1em;
       text-align: left
   }
->>>>>>> our-features
     }
+
+.testimonial {
+  background-color: rgba(255, 255, 255, .8);
+  padding: 0 1.875rem 1px 1.875rem;
+}
+
+.testimonial__photo {
+    border-radius: 80px;
+    overflow: hidden;
+    width: 160px;
+    height: 160px;
+    margin: 0 auto -80px auto;
+    position: relative;
+    top: -80px;
+    border: 5px solid rgba(255, 255, 255, .8);
+  }
+
+.testimonial__title {
+    color: #2f5572;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0;
+  }
+
+.testimonial__subtitle {
+    color: #d59541;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: .25rem 0 1rem 0;
+  }
