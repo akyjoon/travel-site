@@ -781,14 +781,22 @@ a {
 
 @media (min-width: 530px) {
 
+<<<<<<< HEAD
 .feature-item {
     position: absolute;
     left:0
 }
+=======
+.feature-item__icon {
+      position: absolute;
+      left:0
+  }
+>>>>>>> our-features
     }
 
 .feature-item__title {
     font-size: 1.6rem;
+<<<<<<< HEAD
     font-weight: 300;
     margin-bottom: .8rem;
     margin-top: .7em;
@@ -802,4 +810,19 @@ a {
       margin-top: 1em;
       text-align: left
   }
+=======
+    margin-top: .7em;
+    font-weight: 300;
+    margin-bottom: .8rem;
+    text-align: center;
+  }
+
+@media (min-width: 530px) {
+
+.feature-item__title {
+      font-size: 1.875rem;
+      margin-top: 1em;
+      text-align: left
+  }
+>>>>>>> our-features
     }

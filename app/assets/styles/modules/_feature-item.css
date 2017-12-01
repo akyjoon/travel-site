@@ -5,22 +5,40 @@
   @mixin atSmall {
     padding-left: 94px;
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> our-features
 
   &__icon {
     display: block;
     margin: 0 auto;
+<<<<<<< HEAD
   }
 
   @mixin atSmall {
     position: absolute;
     left:0;
+=======
+
+    @mixin atSmall {
+      position: absolute;
+      left:0;
+}
+>>>>>>> our-features
   }
 
   &__title {
     font-size: 1.6rem;
+<<<<<<< HEAD
     font-weight: 300;
     margin-bottom: .8rem;
     margin-top: .7em;
+=======
+    margin-top: .7em;
+    font-weight: 300;
+    margin-bottom: .8rem;
+>>>>>>> our-features
     text-align: center;
 
     @mixin atSmall {
