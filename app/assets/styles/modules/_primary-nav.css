@@ -20,7 +20,7 @@
   li {
     list-style: none;
     display: inline-block;
-    padding-right: 4px;
+    padding-right: 10px;
 
     @mixin atMedium {
       float: left;
@@ -48,6 +48,10 @@
       font-size: 1rem;
       padding: 11px 0;
       background-color: transparent;
+
+      &.is-current-link {
+        color: #fabb69;
+      }
     }
   }
 }

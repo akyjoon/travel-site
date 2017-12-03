@@ -7,7 +7,8 @@ gulp.task('watch', function() {
         browserSync.init({
             server: {
                 baseDir: "app"
-            }
+            },
+            browser: "firefox"
         })
 
         watch('./app/index.html', function() {
