@@ -1,7 +1,7 @@
 @define-mixin atSmall {
-    @media (min-width: 530px) {
-        @mixin-content;
-    }
+  @media (min-width: 530px) {
+    @mixin-content;
+  }
 }
 
 @define-mixin atMedium {
